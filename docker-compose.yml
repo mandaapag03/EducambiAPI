@@ -1,4 +1,20 @@
 services:
+  database:
+    container_name: educambi_db_mysql
+    image: mysql:9.0
+    build: mysql:9.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: educambi_manager_user
+      MYSQL_PASSWORD: ASDQWEZXC#147
+      MYSQL_DATABASE: educambi_database
+    ports:
+      - "3306:3306"
+    networks:
+      - educambi
+    volumes:
+      - /var/lib/mysql
+
   go-app:
     build:
       context: .
