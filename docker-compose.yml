@@ -1,19 +1,22 @@
+volumes:
+  data:
 services:
   database:
     container_name: educambi_db_mysql
-    image: mysql:9.0
-    build: mysql:9.0
+    image: mysql:9.1
+    build: mysql:9.1
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: educambi_manager_user
       MYSQL_PASSWORD: ASDQWEZXC#147
-      MYSQL_DATABASE: educambi_database
+      MYSQL_DATABASE: db_educambi
     ports:
       - "3306:3306"
     networks:
       - educambi
     volumes:
-      - /var/lib/mysql
+      - data:/var/lib/mysql
+      - ./config/docker-entrypoint-initdb.d/init.sql:/docker-entrypoint-initdb.d/init.sql
 
   go-app:
     build:
