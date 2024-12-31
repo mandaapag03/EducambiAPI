@@ -150,8 +150,3 @@ VALUES
     (1, "John", "Doe", "john.doe@example.com", "password123", "1990-05-15", "path/to/photo.jpg"),
     (2, "Jane", "Smith", "jane.smith@example.com", "securePass456", "1985-10-22", "path/to/photo2.jpg"),
     (1, "Alice", "Johnson", "alice.johnson@example.com", "mypassword789", "1992-03-30", NULL);
-
-INSERT INTO tb_user (fk_user_type_id, first_name, last_name, email, password, date_of_birth, photo)
-VALUES
-    (1, "xxxxx", "xxxx", "john.doe@example", "password123", "1990-05-15", "path/to/photo.jpg");
-
