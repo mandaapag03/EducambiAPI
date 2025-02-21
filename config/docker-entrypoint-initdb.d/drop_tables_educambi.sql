@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS tb_course;
 DROP TABLE IF EXISTS tb_subjects;
 DROP TABLE IF EXISTS tb_category;
 DROP TABLE IF EXISTS tb_user;
+DROP TABLE IF EXISTS tb_auth;
 DROP TABLE IF EXISTS tb_user_type;
 
 DROP DATABASE IF EXISTS db_educambi;
