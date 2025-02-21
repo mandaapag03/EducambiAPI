@@ -7,18 +7,27 @@ CREATE TABLE IF NOT EXISTS tb_user_type (
     PRIMARY KEY (id)
 );
 
-CREATE TABLE IF NOT EXISTS tb_user (
+CREATE TABLE IF NOT EXISTS tb_auth (
     id INT AUTO_INCREMENT,
-    fk_user_type_id INT NOT NULL,
-    first_name VARCHAR(255) NOT NULL,
-    last_name VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL UNIQUE,
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    CHECK (email REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
+);
+
+CREATE TABLE IF NOT EXISTS tb_user (
+    id INT AUTO_INCREMENT,
+    fk_auth_id INT NOT NULL,
+    fk_user_type_id INT NOT NULL,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255),
     date_of_birth DATE,
     photo VARCHAR(255),
     PRIMARY KEY (id),
     FOREIGN KEY (fk_user_type_id) REFERENCES tb_user_type(id),
-    CHECK (email REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$')
+    FOREIGN KEY (fk_auth_id) REFERENCES tb_auth(id)
 );
 
 CREATE TABLE IF NOT EXISTS tb_class (
@@ -145,8 +154,14 @@ VALUES
 
 -- Example
 
-INSERT INTO tb_user (fk_user_type_id, first_name, last_name, email, password, date_of_birth, photo)
+INSERT INTO tb_auth (username, email, password)
 VALUES
-    (1, "John", "Doe", "john.doe@example.com", "password123", "1990-05-15", "path/to/photo.jpg"),
-    (2, "Jane", "Smith", "jane.smith@example.com", "securePass456", "1985-10-22", "path/to/photo2.jpg"),
-    (1, "Alice", "Johnson", "alice.johnson@example.com", "mypassword789", "1992-03-30", NULL);
+    ("Doe1", "john.doe@example.com", "password123"),
+    ( "Smith2", "jane.smith@example.com", "securePass456"),
+    ("Alice3",  "alice.johnson@example.com", "mypassword789");
+
+INSERT INTO tb_user (fk_auth_id,fk_user_type_id, first_name, last_name, date_of_birth, photo)
+VALUES
+    (1, 1, "John", "Doe", "1990-05-15", "path/to/photo.jpg"),
+    (2, 2, "Jane", "Smith", "1985-10-22", "path/to/photo2.jpg"),
+    (3, 1, "Alice", "Johnson", "1992-03-30", NULL);
