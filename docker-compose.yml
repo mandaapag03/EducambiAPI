@@ -2,9 +2,9 @@ services:
   database:
     container_name: educambi_db_mysql
     image: mysql:9.1
-    build: mysql:9.1
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL__ROOT__PASSWORD}
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
       MYSQL_USER: ${MYSQL__USER}
       MYSQL_PASSWORD: ${MYSQL__PASSWORD}
       MYSQL_DATABASE: db_educambi
@@ -23,6 +23,8 @@ services:
     ports:
       - "8080:8080"
     container_name: go-app-container
+    depends_on:
+      - database
 
 networks:
   educambi:

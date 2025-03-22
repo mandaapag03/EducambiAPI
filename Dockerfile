@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # Build the application
-RUN go build -o main ./cmd/server/main.go
+RUN go build -o ./main ./cmd/server/main.go
 
 # Stage 2: Create a minimal runtime image
 FROM alpine:latest
@@ -23,7 +23,7 @@ FROM alpine:latest
 WORKDIR /root/
 
 # Copy the compiled binary from the builder
-COPY --from=builder /app/main .
+COPY --from=builder ./app/main .
 
 # Expose the port (adjust if your app uses another port)
 EXPOSE 8080

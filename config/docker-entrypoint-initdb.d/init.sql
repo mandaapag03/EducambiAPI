@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS tb_user (
     last_name VARCHAR(255),
     date_of_birth DATE,
     photo VARCHAR(255),
+    is_active BOOLEAN DEFAULT TRUE,
     PRIMARY KEY (id),
     FOREIGN KEY (fk_user_type_id) REFERENCES tb_user_type(id),
     FOREIGN KEY (fk_auth_id) REFERENCES tb_auth(id)
