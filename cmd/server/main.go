@@ -19,7 +19,7 @@ func main() {
 		})
 	})
 
-	if err := eng.Run(":8080"); err != nil {
+	if err := eng.Run(); err != nil {
 		panic(err)
 	}
 }
