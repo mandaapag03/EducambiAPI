@@ -13,7 +13,7 @@ func TestLogin(t *testing.T) {
 	}{
 		{"mandaaa", "123456", true},
 		{"lucas", "12456", false},
-		{"bla", "12456", true},
+		{"bla", "12456", false},
 		{"x", "", false},
 	}
 	for _, test := range tests {
