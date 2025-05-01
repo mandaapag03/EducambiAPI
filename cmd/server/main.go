@@ -1,6 +1,18 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
+	"log"
+	"os"
+)
+
+func init() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
+}
 
 func main() {
 	eng := gin.Default()
@@ -19,7 +31,7 @@ func main() {
 		})
 	})
 
-	if err := eng.Run(":10000"); err != nil {
+	if err := eng.Run(os.Getenv("PORT")); err != nil {
 		panic(err)
 	}
 }
