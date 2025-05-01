@@ -8,7 +8,7 @@ func main() {
 	// Define os proxies confiáveis
 	// Use []string{"0.0.0.0/0"} para confiar em todos (não recomendado em produção)
 	// Ou especifique o IP/cidr exato do proxy (ex: "192.168.1.1" ou "10.0.0.0/8")
-	err := eng.SetTrustedProxies([]string{"127.0.0.1", "216.24.60.0/24", "0.0.0.0"})
+	err := eng.SetTrustedProxies([]string{"0.0.0.0/0"})
 	if err != nil {
 		panic(err)
 	}
@@ -19,7 +19,7 @@ func main() {
 		})
 	})
 
-	if err := eng.Run(); err != nil {
+	if err := eng.Run("10000"); err != nil {
 		panic(err)
 	}
 }
