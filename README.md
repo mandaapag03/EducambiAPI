@@ -1,56 +1,92 @@
-# EducambiAPI
+# Nome do projeto
 
-## 🧠 **Objetivo da Plataforma Educambi**
-Criar um sistema que:
-- Prepare adolescentes e adultos de baixa renda no Brasil para o ambiente acadêmico e de pesquisa científica.
-- Disponibilize aulas (científicas e pré-vestibular), materiais de apoio, eventos, documentários, lives e interações com comunidade e professores.
-- Seja simples, funcional, esteticamente agradável e com custo reduzido.
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
----
+<img src="imagem.png" alt="Exemplo imagem">
 
-## ⚙️ **Tecnologias Sugeridas**
-### 🔹 Frontend:
-- **Angular**: escolhido por @programanda03 por já ter experiência (1 ano) trabalhando com Angular.
+> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
-### 🔹 Backend:
-- **Go (Golang)** monolítico: ideal pela performance, fácil deploy e boa manutenção com equipe pequena.
+### Ajustes e melhorias
 
-### 🔹 Banco de Dados:
-- **PostgreSQL** (recomendado em vez de MySQL):
-    - Melhor modelagem de dados complexos.
-    - Suporte robusto a JSON, relacionamentos e regras de integridade.
-    - Melhor para notificações, permissões e queries sofisticadas.
-- **MongoDB** (opcional para comentários, fórum/discussões se quiser mais flexibilidade).
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
----
+- [x] Tarefa 1
+- [x] Tarefa 2
+- [x] Tarefa 3
+- [ ] Tarefa 4
+- [ ] Tarefa 5
 
-## ☁️ **Infraestrutura e Deploy**
-- 2 ou 3 ambientes: **DEV**, **STAGING (opcional)**, **PROD**.
-- CI/CD com **GitHub Actions**.
-- Serviços de cloud com **baixo custo** sugeridos:
-    - **Render** ou **Railway** (backend, PostgreSQL, MongoDB)
-    - **Netlify**, **Vercel** ou **Firebase Hosting** (frontend Angular)
-    - **Logtail**, **BetterStack**, **Grafana/Prometheus** (monitoramento/logs)
-    - **Supabase** (se quiser banco + storage + autenticação gratuita)
+## 💻 Pré-requisitos
 
----
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-## 🗂️ **Requisitos de Funcionalidades (C1–C21)**
-Foram listadas 21 características importantes da plataforma, entre elas:
+- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
+- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
-- Aulas separadas por tipo (C1, C2), com materiais de apoio e artigos (C9).
-- Documentários, lives, conteúdos didáticos, eventos e revista da USP (C3–C7).
-- Fórum de discussão com verificação de respostas de professores (C11).
-- Gestão de disciplinas, aulas, eventos, documentários e materiais (C12–C17).
-- Perfis de professores e controle de permissões (C18–C20).
-- Notificações sobre dúvidas, respostas e eventos (C21).
+## 🚀 Instalando <nome_do_projeto>
 
----
+Para instalar o <nome_do_projeto>, siga estas etapas:
 
-## ✅ Conclusão Técnica
-- A arquitetura proposta é sólida para o time reduzido (até 4 pessoas).
-- O uso de **Go + PostgreSQL + Angular** é coerente, com bom equilíbrio entre performance, segurança e escalabilidade.
-- Plataformas como **Render**, **Supabase**, **Railway** e **Netlify** são ideais para reduzir custos com bom suporte a CI/CD.
-- O modelo está pronto para evoluir para algo maior, se o projeto escalar.
+Linux e macOS:
 
----
+```
+<comando_de_instalação>
+```
+
+Windows:
+
+```
+<comando_de_instalação>
+```
+
+## ☕ Usando <nome_do_projeto>
+
+Para usar <nome_do_projeto>, siga estas etapas:
+
+```
+<exemplo_de_uso>
+```
+
+Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
+
+## 📫 Contribuindo para <nome_do_projeto>
+
+Para contribuir com <nome_do_projeto>, siga estas etapas:
+
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Iuri Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 😄 Seja um dos contribuidores
+
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+## 📝 Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.

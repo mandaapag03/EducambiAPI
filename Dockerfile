@@ -1,32 +1,26 @@
-# Stage 1: Build the Go binary
-FROM golang:1.23.2 AS builder
+# Builder
+FROM golang:1.20.7-alpine3.17 as builder
 
-# Set the working directory
+RUN apk update && apk upgrade && \
+    apk --update add git make bash build-base
+
 WORKDIR /app
 
-# Copy the Go modules files
-COPY go.mod ./
-
-# Download dependencies
-RUN go mod download
-
-# Copy the source code
 COPY . .
 
-# Build the application
-RUN go build -o main ./cmd/server/main.go
+RUN make build
 
-# Stage 2: Create a minimal runtime image
+# Distribution
 FROM alpine:latest
 
-# Set the working directory
-WORKDIR /root/
+RUN apk update && apk upgrade && \
+    apk --update --no-cache add tzdata && \
+    mkdir /app 
 
-# Copy the compiled binary from the builder
-COPY --from=builder /app/main .
+WORKDIR /app 
 
-# Expose the port (adjust if your app uses another port)
-EXPOSE 8080
+EXPOSE 9090
 
-# Command to run the app
-CMD ["./main"]
+COPY --from=builder /app/engine /app/
+
+CMD /app/engine
