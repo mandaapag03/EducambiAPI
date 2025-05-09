@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baeecf85-8542-4b20-8d6d-b17b1c9241a5" name="Changes" comment="add port to .env">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EducambiAPI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+    <list default="true" id="baeecf85-8542-4b20-8d6d-b17b1c9241a5" name="Changes" comment="add template">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changelog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker-entrypoint-initdb.d/drop_tables_educambi.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker-entrypoint-initdb.d/init.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/system_request.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_mock.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_repository.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/routes/routes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/as_pointer/type_as_pointer.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,51 +93,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Go Build.go build backend.executor": "Run",
-    "Go Build.go build main.go.executor": "Run",
-    "Go Build.go run main.go.executor": "Run",
-    "Go Test.TestLogin in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.TestLogin/amanda in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.TestLogin/bla in backend/internal/repositories/auth (1).executor": "Run",
-    "Go Test.TestLogin/bla in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.TestLogin/lucas in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.TestLogin/mandaaa in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.TestLogin/x in backend/internal/repositories/auth.executor": "Run",
-    "Go Test.auth_test.go.executor": "Run",
-    "Go Test.go test EducambiAPI.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "Makefile Target.all.executor": "Run",
-    "Makefile Target.default.executor": "Run",
-    "Makefile Target.makefile.executor": "Run",
-    "Makefile Target.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "feature/add-api-rest-template",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "C:/Users/pagan/OneDrive/Documentos/Educambi/EducambiAPI/cmd/server/main.go",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/pagan/OneDrive/Documentos/ProjetoColetivo/backend/main.go",
-    "settings.editor.selected.configurable": "discord-application"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build backend.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build main.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go run main.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/amanda in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/bla in backend/internal/repositories/auth (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/bla in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/lucas in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/mandaaa in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestLogin/x in backend/internal/repositories/auth.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.auth_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test EducambiAPI.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.all.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.default.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.makefile.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/add-api-rest-template&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pagan/OneDrive/Documentos/Educambi/EducambiAPI/cmd/server/main.go&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pagan/OneDrive/Documentos/ProjetoColetivo/backend/main.go&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\pkg\as_pointer" />
@@ -268,7 +247,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implement hash" />
     <MESSAGE value="add database MySQL" />
     <MESSAGE value="create database" />
     <MESSAGE value="Add /ping" />
@@ -293,7 +271,8 @@
     <MESSAGE value="add server ip to proxy" />
     <MESSAGE value="update server ip to proxy" />
     <MESSAGE value="add port to .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="add port to .env" />
+    <MESSAGE value="add template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add template" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -1,24 +1,6 @@
 # Nome do projeto
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
-
-<img src="imagem.png" alt="Exemplo imagem">
-
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
-
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
-
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
 
 ## 💻 Pré-requisitos
 
@@ -44,16 +26,6 @@ Windows:
 <comando_de_instalação>
 ```
 
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
-
 ## 📫 Contribuindo para <nome_do_projeto>
 
 Para contribuir com <nome_do_projeto>, siga estas etapas:
@@ -74,19 +46,22 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/91763777?v=4" width="100px;" alt="Foto da Amanda Pagani no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Amanda Pagani</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
+[//]: # (## 😄 Seja um dos contribuidores)
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+[//]: # ()
+[//]: # (Quer fazer parte desse projeto? Clique [AQUI]&#40;CONTRIBUTING.md&#41; e leia como contribuir.)
 
-## 📝 Licença
+[//]: # ()
+[//]: # (## 📝 Licença)
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+[//]: # ()
+[//]: # (Esse projeto está sob licença. Veja o arquivo [LICENÇA]&#40;LICENSE.md&#41; para mais detalhes.)
