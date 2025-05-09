@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baeecf85-8542-4b20-8d6d-b17b1c9241a5" name="Changes" comment="add port to .env">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EducambiAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/docker-entrypoint-initdb.d/drop_tables_educambi.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/docker-entrypoint-initdb.d/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/system_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_mock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_repository.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/repositories/auth/auth_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/routes/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/as_pointer/type_as_pointer.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONjw76c6GeJgX&quot;,
+        &quot;number&quot;: 4
+      },
+      &quot;lastSeen&quot;: 1735616956989
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONjw76c6GeBhD&quot;,
+        &quot;number&quot;: 3
+      },
+      &quot;lastSeen&quot;: 1735616973798
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONjw76c6SCRuG&quot;,
+        &quot;number&quot;: 11
+      },
+      &quot;lastSeen&quot;: 1744261539398
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/programanda03/EducambiAPI.git&quot;,
+    &quot;accountId&quot;: &quot;41382b35-758c-4c35-95d6-a3758d02c9ef&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;programanda03&quot;,
+    &quot;repository&quot;: &quot;EducambiAPI&quot;
+  },
+  &quot;editorReviewEnabled&quot;: false
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2qv2wYZo6sughmoQ5hPAs3dcosj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Go Build.go build backend.executor": "Run",
+    "Go Build.go build main.go.executor": "Run",
+    "Go Build.go run main.go.executor": "Run",
+    "Go Test.TestLogin in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.TestLogin/amanda in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.TestLogin/bla in backend/internal/repositories/auth (1).executor": "Run",
+    "Go Test.TestLogin/bla in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.TestLogin/lucas in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.TestLogin/mandaaa in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.TestLogin/x in backend/internal/repositories/auth.executor": "Run",
+    "Go Test.auth_test.go.executor": "Run",
+    "Go Test.go test EducambiAPI.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "Makefile Target.all.executor": "Run",
+    "Makefile Target.default.executor": "Run",
+    "Makefile Target.makefile.executor": "Run",
+    "Makefile Target.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "feature/add-api-rest-template",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "C:/Users/pagan/OneDrive/Documentos/Educambi/EducambiAPI/cmd/server/main.go",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/pagan/OneDrive/Documentos/ProjetoColetivo/backend/main.go",
+    "settings.editor.selected.configurable": "discord-application"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\pkg\as_pointer" />
+      <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\docs" />
+      <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\cmd\server\routes" />
+      <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\cmd\server" />
+      <recent name="C:\Users\pagan\OneDrive\Documentos\Educambi\EducambiAPI\cmd" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+        <option value="GoTestRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build backend">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="EducambiAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build backend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="EducambiAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="backend" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go run main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="EducambiAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="backend" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/server/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="EducambiAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="default" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build backend" />
+      <item itemvalue="Go Build.go run main.go" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="Makefile Target.default" />
+      <item itemvalue="Makefile Target.makefile" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go run main.go" />
+        <item itemvalue="Go Build.go build backend" />
+        <item itemvalue="Makefile Target.makefile" />
+        <item itemvalue="Makefile Target.default" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-d297c17c1fbd-57c114c3cede-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.24978.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-GO-243.24978.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement hash" />
+    <MESSAGE value="add database MySQL" />
+    <MESSAGE value="create database" />
+    <MESSAGE value="Add /ping" />
+    <MESSAGE value="add auth table and add .env" />
+    <MESSAGE value="add routers" />
+    <MESSAGE value="add system requests" />
+    <MESSAGE value="update gin" />
+    <MESSAGE value="add heroku IP like trusted proxy" />
+    <MESSAGE value="remove port param" />
+    <MESSAGE value="add tests" />
+    <MESSAGE value="add bla test" />
+    <MESSAGE value="add bla test failed" />
+    <MESSAGE value="add bla test passed" />
+    <MESSAGE value="summary" />
+    <MESSAGE value="new summary" />
+    <MESSAGE value="add SetTrustedProxies to main.go" />
+    <MESSAGE value="add EditorConfig and update .gitignore and README.md" />
+    <MESSAGE value="add changelog.md" />
+    <MESSAGE value="update go.mod and go.sum for Go 1.23.0 and dependency upgrades" />
+    <MESSAGE value="teste" />
+    <MESSAGE value="add auth test" />
+    <MESSAGE value="add server ip to proxy" />
+    <MESSAGE value="update server ip to proxy" />
+    <MESSAGE value="add port to .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="add port to .env" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
